@@ -4,11 +4,11 @@ const nl = {
   embeds: {
     help: {
       title: "{username}'s commands",
-      description: 'Here is a list of all my commands.',
+      description: 'Hier een overzicht van mijn commando's .',
     },
     info: {
       description:
-        '{username} is an intuitive and user-friendly Discord bot connected to https://paliapedia.com and has been created by [glazk0](discord://-/users/247344130798256130).',
+        '{username} is een intuïtieve en gebruiksvriendelijke Discord-bot die verbonden is met https://paliapedia.com en is gemaakt door [glazk0](discord://-/users/247344130798256130).',
       statistics_name: 'Statistics',
       statistics_value: 'Servers: {servers}\nUsers: {users}',
       debug_name: 'Debug',
@@ -20,13 +20,13 @@ const nl = {
     settings: {
       news: {
         no_permissions:
-          "I don't have the permission to view or send messages in {channel}.",
-        enabled: 'News will now be sent in {channel}.',
-        not_enabled: 'News are not enabled for this server.',
-        disabled: 'News will no longer be sent in {channel}.',
+          "ik heb geen toestemming het kanaal te bekijken of berichten te versturen in {channel}.",
+        enabled: 'Nieuws word nu vermeld in {channel}.',
+        not_enabled: 'Nieuws staat niet aan op deze server.',
+        disabled: 'Nieuws word niet langer vermeld in {channel}.',
       },
       locale: {
-        success: 'The locale has been set to {locale}.',
+        success: 'De taal is ingesteld op {locale}.',
       },
     },
     miscellaneous: {
