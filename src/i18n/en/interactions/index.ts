@@ -1,22 +1,22 @@
 import type { BaseTranslation } from '../../i18n-types';
 
-const en_interactions = {
-    settings: {
-      news: {
-        enabled: 'News will now be sent in {channel}.',
-        not_enabled: 'News are not enabled for this server.',
-        disabled: 'News will no longer be sent in {channel}.',
-      },
-      locale: {
-        success: 'The locale has been set to {locale}.',
-      },
+const nl_interactions = {
+  settings: {
+    news: {
+      enabled: 'Nieuws wordt nu verstuurd in {channel}.',
+      not_enabled: 'Nieuws is niet ingeschakeld voor deze server.',
+      disabled: 'Nieuws wordt niet langer verstuurd in {channel}.',
     },
-    miscellaneous: {
-      no_permissions:
-        "I don't have the permission to view or send messages in {channel}.",
-      no_results: 'No results found.',
-      no_results_for: 'No results found for "{query}".',
+    locale: {
+      success: 'De taalinstelling is gewijzigd naar {locale}.',
     },
-} satisfies BaseTranslation;
+  },
+  miscellaneous: {
+    no_permissions:
+      "Ik heb niet de toestemming om berichten te bekijken of te versturen in {channel}.",
+    no_results: 'Geen resultaten gevonden.',
+    no_results_for: 'Geen resultaten gevonden voor "{query}".',
+  },
+} voldoet aan BaseTranslation;
 
-export default en_interactions;
+export default nl_interactions;
