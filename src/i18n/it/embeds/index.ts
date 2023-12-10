@@ -1,76 +1,76 @@
 import type { BaseTranslation } from "../../i18n-types";
 
-const en_embeds = {
-	help: {
-		title: "{username}'s commands",
-		description: "Here is a list of all my commands. You can also see them when you type `/` in Discord.",
-	},
-	about: {
-		description:
-			'{username} is an intuitive and user-friendly Discord bot connected to https://paliapedia.com and has been created by {developers}.',
-		statistics_name: 'Statistics',
-		statistics_value: 'Servers: {servers}\nUsers: {users}',
-		debug_name: "Debug",
-		debug_value: "Shards: {shards}\nShardID: {shardId}",
-	},
-	item: {
-		category: 'Category',
-		rarity: 'Rarity',
-		quality: 'Quality',
-		cost: 'Cost',
-		value: 'Value',
-		sold_at: 'Sold at',
-		crafted_by: 'Crafted by',
-		gathered_from: 'Gathered from',
-		quest_reward_from: 'Quest reward from',
-		attached_to: 'Attached to',
-		obtained_by_reading: 'Obtained by reading',
-		reward_from: 'Reward from',
-		obtained_from: 'Obtained from',
-		teaches_recipe: 'Teaches recipe',
-		needed_for_quest: 'Needed for quest',
-		contains_item: 'Contains item',
-	},
-	quest: {
-		starts_with: 'Starts with',
-		requirement: 'Requirement',
-		requirements: 'Requirements',
-		branching_goals: 'Complete {count} of the following',
-		turn_in: 'Turn in',
-		quest_return: 'Quest return',
-		reward: 'Reward',
-		rewards: 'Rewards',
-		friendship_points: 'x{amount} Friendship Points with {villager}',
-		romance_points: 'x{amount} Romance Points with {villager}',
-		mail_message: "{villager}'s mail",
-		visit_from: 'A visit from {villager}',
-	},
-	recipe: {
-		cost: 'Cost',
-		craft_time: 'Craft time',
-		required_ingredients: 'Required ingredients',
-		produces: 'Produces',
-		sold_at: 'Sold at',
-		vendors: 'Vendors',
-		gatherables: 'Gatherables',
-		mail: 'Mail',
-		recipes: 'Recipes',
-	},
-	villager: {
-		gift_preferences: 'Gift preferences',
-		weekly_wants: 'Weekly wants',
-		relationship:
-			'{type} level {level} - {levelName} (Requires {requiredValue})',
-	},
-	weekly_wants: {
-		title: 'Weekly Wants Rotation',
-		description:
-			'The weekly wants rotation for {date} is now available! You can find the full list of weekly wants on {url}.',
-	},
-	miscellaneous: {
-		see_more: 'See {count} more ...',
-		no_data: 'No data available.',
-	},
+const it_embeds = {
+  help: {
+    title: "Comandi di {username}",
+    description: "Ecco un elenco di tutti i miei comandi. Puoi anche vederli quando scrivi `/` su Discord.",
+  },
+  about: {
+    description:
+      '{username} è un bot Discord intuitivo e user-friendly collegato a https://paliapedia.com ed è stato creato da {developers}.',
+    statistics_name: 'Statistiche',
+    statistics_value: 'Server: {servers}\nUtenti: {users}',
+    debug_name: "Debug",
+    debug_value: "Shards: {shards}\nShardID: {shardId}",
+  },
+  item: {
+    category: 'Categoria',
+    rarity: 'Rarità',
+    quality: 'Qualità',
+    cost: 'Costo',
+    value: 'Valore',
+    sold_at: 'Venduto a',
+    crafted_by: 'Creato da',
+    gathered_from: 'Raccolto da',
+    quest_reward_from: 'Ricompensa della missione',
+    attached_to: 'Collegato a',
+    obtained_by_reading: 'Ottenuto leggendo',
+    reward_from: 'Ricompensa da',
+    obtained_from: 'Ottenuto da',
+    teaches_recipe: 'Insegna ricetta',
+    needed_for_quest: 'Necessario per la missione',
+    contains_item: 'Contiene oggetto',
+  },
+  quest: {
+    starts_with: 'Inizia con',
+    requirement: 'Requisito',
+    requirements: 'Requisiti',
+    branching_goals: 'Completa {count} dei seguenti',
+    turn_in: 'Consegna',
+    quest_return: 'Ritorno missione',
+    reward: 'Ricompensa',
+    rewards: 'Ricompense',
+    friendship_points: 'x{amount} Punti di amicizia con {villager}',
+    romance_points: 'x{amount} Punti romantici con {villager}',
+    mail_message: "Posta di {villager}",
+    visit_from: 'Una visita da parte di {villager}',
+  },
+  recipe: {
+    cost: 'Costo',
+    craft_time: 'Tempo di creazione',
+    required_ingredients: 'Ingredienti necessari',
+    produces: 'Produce',
+    sold_at: 'Venduto a',
+    vendors: 'Venditori',
+    gatherables: 'Raccolte',
+    mail: 'Posta',
+    recipes: 'Ricette',
+  },
+  villager: {
+    gift_preferences: 'Preferenze regalo',
+    weekly_wants: 'Desideri settimanali',
+    relationship:
+      '{type} livello {level} - {levelName} (Richiede {requiredValue})',
+  },
+  weekly_wants: {
+    title: 'Rotazione desideri settimanali',
+    description:
+      'La rotazione dei desideri settimanali per {date} è ora disponibile! Puoi trovare l\'elenco completo dei desideri settimanali su {url}.',
+  },
+  miscellaneous: {
+    see_more: 'Vedi altri {count} ...',
+    no_data: 'Nessun dato disponibile.',
+  },
 } satisfies BaseTranslation;
 
-export default en_embeds;
+export default it_embeds;
