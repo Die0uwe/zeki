@@ -1,22 +1,22 @@
 import type { BaseTranslation } from '../../i18n-types';
 
-const en_interactions = {
-    settings: {
-      news: {
-        enabled: 'News will now be sent in {channel}.',
-        not_enabled: 'News are not enabled for this server.',
-        disabled: 'News will no longer be sent in {channel}.',
-      },
-      locale: {
-        success: 'The locale has been set to {locale}.',
-      },
+const pl_interactions = {
+  settings: {
+    news: {
+      enabled: 'Teraz wiadomości będą wysyłane na {channel}.',
+      not_enabled: 'Wiadomości nie są włączone dla tego serwera.',
+      disabled: 'Wiadomości nie będą już wysyłane na {channel}.',
     },
-    miscellaneous: {
-      no_permissions:
-        "I don't have the permission to view or send messages in {channel}.",
-      no_results: 'No results found.',
-      no_results_for: 'No results found for "{query}".',
+    locale: {
+      success: 'Język ustawiono na {locale}.',
     },
+  },
+  miscellaneous: {
+    no_permissions:
+      "Nie mam uprawnień do przeglądania lub wysyłania wiadomości na kanale {channel}.",
+    no_results: 'Nie znaleziono wyników.',
+    no_results_for: 'Nie znaleziono wyników dla "{query}".',
+  },
 } satisfies BaseTranslation;
 
-export default en_interactions;
+export default pl_interactions;
