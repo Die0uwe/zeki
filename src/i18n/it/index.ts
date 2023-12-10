@@ -1,7 +1,7 @@
 import type { BaseTranslation } from '../i18n-types';
 
-const en = {
-  locale: 'en',
+const it = {
+  locale: 'it',
 } satisfies BaseTranslation;
 
-export default en;
+export default it;
