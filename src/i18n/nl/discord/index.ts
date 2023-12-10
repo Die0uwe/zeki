@@ -1,98 +1,98 @@
 import { BaseTranslation } from "../../i18n-types";
 
-const en_discord = {
+const nl_discord = {
   settings: {
-    name: 'settings',
-    description: 'Access and manage your server settings.',
+    name: 'instellingen',
+    description: 'Toegang tot en beheer van uw serverinstellingen.',
   },
   ['settings.locale']: {
-    name: 'locale',
-    description: 'Change the language settings for your server.',
+    name: 'taal',
+    description: 'Verander de taalinstellingen voor uw server.',
   },
   ['settings.locale.value']: {
-    name: 'value',
-    description: 'Specify the preferred language for your server.',
+    name: 'waarde',
+    description: 'Specificeer de voorkeurstaal voor uw server.',
   },
   ['settings.news']: {
-    name: 'news',
-    description: 'Control the news settings for your server.',
+    name: 'nieuws',
+    description: 'Beheer de nieuwsinstellingen voor uw server.',
   },
   ['settings.news.enable']: {
-    name: 'enable',
-    description: 'Activate the news feature for your server.',
+    name: 'inschakelen',
+    description: 'Activeer de nieuwsfunctie voor uw server.',
   },
   ['settings.news.enable.channel']: {
-    name: 'channel',
-    description: 'Designate the channel where news updates will be posted.',
+    name: 'kanaal',
+    description: 'Geef het kanaal aan waar nieuwsupdates zullen worden gepost.',
   },
   ['settings.news.disable']: {
-    name: 'disable',
-    description: 'Deactivate the news feature for your server.',
+    name: 'uitschakelen',
+    description: 'Deactiveer de nieuwsfunctie voor uw server.',
   },
   help: {
     name: 'help',
-    description: "Display a comprehensive list of Zeki's available commands.",
+    description: 'Toon een uitgebreide lijst van beschikbare commando\'s van Zeki.',
   },
   about: {
-    name: 'about',
-    description: 'Retrieve detailed information about Zeki.',
+    name: 'over',
+    description: 'Haal gedetailleerde informatie op over Zeki.',
   },
   quest: {
-    name: 'quest',
-    description: 'Search for quests and related information.',
+    name: 'zoektocht',
+    description: 'Zoek naar quests en gerelateerde informatie.',
   },
   'quest.query': {
-    name: 'query',
-    description: 'What quest are you looking for?',
+    name: 'vraag',
+    description: 'Welke zoektocht zoek je?',
   },
   villager: {
-    name: 'villager',
-    description: 'Look up information about specific villagers.',
+    name: 'dorpsbewoner',
+    description: 'Zoek informatie over specifieke dorpsbewoners.',
   },
   'villager.query': {
-    name: 'query',
-    description: 'What villager are you looking for?',
+    name: 'vraag',
+    description: 'Welke dorpsbewoner zoek je?',
   },
   recipe: {
-    name: 'recipe',
-    description: 'Search for crafting recipes and crafting details.',
+    name: 'recept',
+    description: 'Zoek naar knutselrecepten en details voor het knutselen.',
   },
   'recipe.query': {
-    name: 'query',
-    description: 'What recipe are you looking for?',
+    name: 'vraag',
+    description: 'Welk recept zoek je?',
   },
   'recipe.amount': {
-    name: 'amount',
-    description: 'Determine the quantity of items to craft.',
+    name: 'hoeveelheid',
+    description: 'Bepaal de hoeveelheid items om te knutselen.',
   },
   item: {
     name: 'item',
-    description: 'Search for items and item details.',
+    description: 'Zoek naar items en details van items.',
   },
   'item.query': {
-    name: 'query',
-    description: 'What item are you looking for?',
+    name: 'vraag',
+    description: 'Welk item zoek je?',
   },
   weekly: {
-    name: 'weekly',
-    description: 'Retrieve weekly preferences and wants of villagers.',
+    name: 'wekelijks',
+    description: 'Haal wekelijke voorkeuren en wensen van dorpsbewoners op.',
   },
   bundle: {
-    name: 'bundle',
-    description: 'Search for information about bundles and their contents.',
+    name: 'pakket',
+    description: 'Zoek informatie over bundels en hun inhoud.',
   },
   'bundle.query': {
-    name: 'query',
-    description: 'What bundle are you looking for?',
+    name: 'vraag',
+    description: 'Welke bundel zoek je?',
   },
   accomplishment: {
-    name: 'accomplishment',
-    description: 'Search for accomplishments and achievement details.',
+    name: 'prestatie',
+    description: 'Zoek naar prestaties en details van prestaties.',
   },
   'accomplishment.query': {
-    name: 'query',
-    description: 'What accomplishment are you looking for?',
+    name: 'vraag',
+    description: 'Welke prestatie zoek je?',
   },
 } satisfies BaseTranslation;
 
-export default en_discord;
+export default nl_discord;
