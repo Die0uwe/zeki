@@ -1,98 +1,98 @@
 import { BaseTranslation } from "../../i18n-types";
 
-const en_discord = {
+const it_discord = {
   settings: {
-    name: 'settings',
-    description: 'Access and manage your server settings.',
+    name: 'impostazioni',
+    description: 'Accedi e gestisci le impostazioni del tuo server.',
   },
   ['settings.locale']: {
     name: 'locale',
-    description: 'Change the language settings for your server.',
+    description: 'Cambia le impostazioni della lingua per il tuo server.',
   },
   ['settings.locale.value']: {
-    name: 'value',
-    description: 'Specify the preferred language for your server.',
+    name: 'valore',
+    description: 'Specifica la lingua preferita per il tuo server.',
   },
   ['settings.news']: {
-    name: 'news',
-    description: 'Control the news settings for your server.',
+    name: 'notizie',
+    description: 'Controlla le impostazioni delle notizie per il tuo server.',
   },
   ['settings.news.enable']: {
-    name: 'enable',
-    description: 'Activate the news feature for your server.',
+    name: 'attiva',
+    description: 'Attiva la funzione di notizie per il tuo server.',
   },
   ['settings.news.enable.channel']: {
-    name: 'channel',
-    description: 'Designate the channel where news updates will be posted.',
+    name: 'canale',
+    description: 'Designa il canale in cui verranno pubblicate le notizie.',
   },
   ['settings.news.disable']: {
-    name: 'disable',
-    description: 'Deactivate the news feature for your server.',
+    name: 'disattiva',
+    description: 'Disattiva la funzione di notizie per il tuo server.',
   },
   help: {
-    name: 'help',
-    description: "Display a comprehensive list of Zeki's available commands.",
+    name: 'aiuto',
+    description: "Mostra un elenco completo dei comandi disponibili di Zeki.",
   },
   about: {
-    name: 'about',
-    description: 'Retrieve detailed information about Zeki.',
+    name: 'info',
+    description: 'Recupera informazioni dettagliate su Zeki.',
   },
   quest: {
-    name: 'quest',
-    description: 'Search for quests and related information.',
+    name: 'ricerca',
+    description: 'Cerca missioni e informazioni correlate.',
   },
   'quest.query': {
     name: 'query',
-    description: 'What quest are you looking for?',
+    description: 'Quale missione stai cercando?',
   },
   villager: {
-    name: 'villager',
-    description: 'Look up information about specific villagers.',
+    name: 'abitante',
+    description: 'Cerca informazioni su abitanti specifici.',
   },
   'villager.query': {
     name: 'query',
-    description: 'What villager are you looking for?',
+    description: 'Quale abitante stai cercando?',
   },
   recipe: {
-    name: 'recipe',
-    description: 'Search for crafting recipes and crafting details.',
+    name: 'ricetta',
+    description: 'Cerca ricette e dettagli sulla creazione.',
   },
   'recipe.query': {
     name: 'query',
-    description: 'What recipe are you looking for?',
+    description: 'Quale ricetta stai cercando?',
   },
   'recipe.amount': {
-    name: 'amount',
-    description: 'Determine the quantity of items to craft.',
+    name: 'quantità',
+    description: 'Determina la quantità di oggetti da creare.',
   },
   item: {
-    name: 'item',
-    description: 'Search for items and item details.',
+    name: 'oggetto',
+    description: 'Cerca oggetti e dettagli sugli oggetti.',
   },
   'item.query': {
     name: 'query',
-    description: 'What item are you looking for?',
+    description: 'Quale oggetto stai cercando?',
   },
   weekly: {
-    name: 'weekly',
-    description: 'Retrieve weekly preferences and wants of villagers.',
+    name: 'settimanale',
+    description: 'Recupera le preferenze settimanali e i desideri degli abitanti.',
   },
   bundle: {
-    name: 'bundle',
-    description: 'Search for information about bundles and their contents.',
+    name: 'pacchetto',
+    description: 'Cerca informazioni su pacchetti e i loro contenuti.',
   },
   'bundle.query': {
     name: 'query',
-    description: 'What bundle are you looking for?',
+    description: 'Quale pacchetto stai cercando?',
   },
   accomplishment: {
-    name: 'accomplishment',
-    description: 'Search for accomplishments and achievement details.',
+    name: 'realizzazione',
+    description: 'Cerca dettagli su realizzazioni e obiettivi.',
   },
   'accomplishment.query': {
     name: 'query',
-    description: 'What accomplishment are you looking for?',
+    description: 'Quale realizzazione stai cercando?',
   },
 } satisfies BaseTranslation;
 
-export default en_discord;
+export default it_discord;
